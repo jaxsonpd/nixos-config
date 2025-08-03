@@ -12,6 +12,7 @@
   
   programs.nushell.enable = true;
   
+  home.file.".config/nvim".source = ../../external/nvim-config;
 
   home.packages = with pkgs; [
     nushell

@@ -12,10 +12,9 @@
   
   programs.nushell.enable = true;
 
-  home.file.".config/nvim" = {
-    source = ./../../external/nvim-config; # e.g., ../dotfiles/nvim
-    recursive = true; # If your config is a directory
-  };
+  home.file.".config/nvim" = let 
+    nvim-config = ./../../external/nvim-config;
+    in nvim-config;
 
   home.packages = with pkgs; [
     nushell

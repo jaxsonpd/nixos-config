@@ -12,13 +12,14 @@
   
   programs.nushell.enable = true;
 
-  home.file.".config/nvim" = let 
-    nvim-config = ./../../external/nvim-config;
-    in nvim-config;
+  # home.file.".config/nvim" = let 
+  #   nvim-config = ./../../external/nvim-config;
+  #   in nvim-config;
 
   home.packages = with pkgs; [
     nushell
     tinymist
+    obsidian
   ];
 
   

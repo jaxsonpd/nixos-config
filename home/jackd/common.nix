@@ -20,6 +20,7 @@
     nushell
     tinymist
     obsidian
+    firefox
   ];
 
   

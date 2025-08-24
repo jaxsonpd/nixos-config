@@ -34,6 +34,7 @@
       nixosConfigurations = {
         laptop = mkHost "laptop" systemTypes.x86_64;
         rpi = mkHost "rpi" systemTypes.arm;
+        wsl = mkHost "wsl" systemTypes.x86_64;
       };
     };
 }

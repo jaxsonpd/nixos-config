@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../common.nix
     ../../modules/cli.nix
     # include NixOS-WSL modules
     <nixos-wsl/modules>
@@ -14,12 +15,6 @@
   wsl.defaultUser = "nixos";
 
   networking.hostName = "wsl-jd";
-
-  users.users.jackd = {
-    isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ];
-    shell = pkgs.nushell;
-  };
 
   system.stateVersion = "25.05";
 }

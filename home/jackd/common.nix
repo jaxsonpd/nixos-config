@@ -21,6 +21,7 @@
     tinymist
     obsidian
     firefox
+    vscode
   ];
 
   

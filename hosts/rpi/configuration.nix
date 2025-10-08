@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../common.nix
     ../../modules/cli.nix
   ];
 

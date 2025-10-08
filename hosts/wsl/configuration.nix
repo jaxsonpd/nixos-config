@@ -12,7 +12,7 @@
   boot.loader.grub.enable = lib.mkForce false;
 
   wsl.enable = true;
-  wsl.defaultUser = "nixos";
+  wsl.defaultUser = "jackd";
 
   networking.hostName = "wsl-jd";
 

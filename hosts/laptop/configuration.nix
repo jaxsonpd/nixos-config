@@ -8,11 +8,5 @@
 
   networking.hostName = "laptop-jd";
 
-  users.users.jackd = {
-    isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ];
-    shell = pkgs.nushell;
-  };
-
   system.stateVersion = "25.05";
 }

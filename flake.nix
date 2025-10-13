@@ -23,6 +23,7 @@
             ./hosts/${name}/configuration.nix
             home-manager.nixosModules.home-manager
             {
+              home-manager.backupFileExtension = "backup";
               home-manager.useUserPackages = true;
               home-manager.useGlobalPkgs = true;
               home-manager.users.jackd = import ./home/jackd/common.nix;

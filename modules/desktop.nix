@@ -39,8 +39,6 @@
   };
   
   environment.systemPackages = with pkgs; [
-    kicad
-    vscode
     (google-chrome.override {
       commandLineArgs = [
         "--enable-features=UseOzonePlatform"

@@ -35,7 +35,6 @@
     neovim
     git
     neofetch
-    nushell
     wget
   ];
 }

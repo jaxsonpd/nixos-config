@@ -25,7 +25,8 @@
       "editor.formatOnSave" = true;
       "editor.defaultFormatter" = "rust-lang.rust-analyzer";
       "files.trimTrailingWhitespace" = true;
-      "workbench.colorTheme" = "Github Dark";
+      "workbench.colorTheme" = "GitHub Dark";
+      "files.autoSave" = "afterDelay";
     };
   };
 

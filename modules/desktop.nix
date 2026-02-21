@@ -46,5 +46,6 @@
       ];
     })
     zoom-us
-  ];
+    rawtherapee
+];
 }
